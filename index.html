@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Bruno Prela's 6.170 Game of Life.">
+    <meta name="keywords" content="Bruno, Prela, Bruno Prela, MIT, Game of Life, Game, of Life, 6.170, JavaScript">
+    <meta name="author" content="Bruno Prela">
+
+    <title>Game of Life</title>
+
+    <!-- Custom CSS -->
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-12 center">
+            <h2>Bruno's Game of Life</h2>
+            <h4>Welcome to the game of life. You didn't ask for this, but it exists. Kind of like real life, actually.</h4>
+            <h5>Click the cells to populate the board, or select one of the presets. You can also randomize the board.</h5>
+            <h5>Click start to begin the game, and pause to stop.</h5>
+            <br>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Game of Life Grid -->
+        <div id="gameGrid" class="center">
+            <div id="gridDivs" class="center">
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./underscore-min.js"></script>
+    <script src="./gridModel.js"></script>
+    <script src="./gridView.js"></script>
+    <script src="./gridController.js"></script>
+    <script src="./gridMain.js"></script>
+
+</body>
+</html>
